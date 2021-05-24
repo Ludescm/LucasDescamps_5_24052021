@@ -1,0 +1,101 @@
+// Paramètres flex
+@mixin flex_column
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin flex_center
+{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex_space_between
+{
+    display: flex;
+	justify-content: space-between;
+}
+
+@mixin flex_sticky
+{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    margin: 0px;
+}
+
+// Paramètres header
+@mixin header
+{
+    font-family: $main_font;
+    font-size: 1.3em;
+    background-color: $primary_color;
+    height: auto;
+}
+
+// Paramètres main
+@mixin main
+{
+    background-color: $body_color;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+// paramètres section
+@mixin section
+{
+    width: 650px;
+    height: 300px;
+    border: 2px solid $hover_color_link;
+    text-align: center;
+    font-family: $main_font;
+    box-shadow: $box_shadow;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $section_color;
+    text-decoration: none;
+}
+
+// paramètre des boutons généraux des formulaire
+@mixin select 
+{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+// paramètre des boutons de validation
+@mixin submit 
+{
+    width: auto;
+    border-radius: 10px;
+    margin: 20px auto 30px auto;
+    background-color: $body_color;
+    font-family: $main_font;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 8px;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+    &:hover {
+        background-color: $primary_color;
+        transform: scale(1.1);
+        color: $hover_color_link;
+    }
+}
+
+// Paramètres footer
+@mixin footer
+{
+    margin: auto;
+    height: auto;
+    background-color: $primary_color;
+    color: $main_color;
+    position: sticky;
+    bottom: 0;
+}

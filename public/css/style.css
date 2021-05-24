@@ -1,0 +1,683 @@
+/* backgrounds colors */
+body {
+  margin: auto;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  background-color: #f3e9f1;
+  height: auto;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5px;
+  border-bottom: 10px double #4F25A8;
+}
+header a img {
+  max-width: 300px;
+  display: inline-block;
+  padding-left: 10px;
+  margin: auto;
+}
+header .lien_panier {
+  text-decoration: none;
+  color: #454545;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 50px auto 5px;
+  text-align: right;
+  opacity: 0.9;
+  transform: scale(0.9);
+  transition: transform 300ms ease-in-out;
+}
+header .lien_panier:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+main {
+  background-color: #9a6bff41;
+  margin: auto;
+  padding-bottom: 40px;
+}
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  color: #9A6BFF;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #454545;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section a {
+  width: 650px;
+  height: 300px;
+  border: 2px solid #4F25A8;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0 20px #f3f3f3;
+  margin: 30px auto 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #9A6BFF;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+section a img {
+  margin: auto;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #f3f3f3;
+}
+section a .cameras_ref {
+  margin: auto;
+}
+section a .cameras_ref h3 {
+  color: white;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-decoration: underline wavy;
+  white-space: pre-line;
+}
+section a .cameras_ref p {
+  color: white;
+  font-style: italic;
+}
+
+.logo_zoom {
+  opacity: 0.9;
+  transform: scale(0.9);
+  transition: transform 300ms ease-in-out;
+}
+.logo_zoom:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.section_zoom {
+  transform: scale(0.95);
+  background-color: #9A6BFF;
+  transition: transform 300ms ease-in-out;
+}
+.section_zoom:hover {
+  transform: scale(1);
+  background-color: #9A6BFF;
+}
+
+footer {
+  margin: auto;
+  height: auto;
+  background-color: #f3e9f1;
+  color: #454545;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #454545;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+footer a {
+  color: #9A6BFF;
+  margin: auto;
+  padding-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+}
+footer a:hover {
+  color: #4F25A8;
+}
+
+.camera_ref {
+  display: flex;
+  box-shadow: 0 0 20px #f3f3f3;
+  background-color: #9A6BFF;
+  margin: 20px auto 10px auto;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+}
+.camera_ref h3 {
+  color: #f3e9f1;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.camera_ref p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 15px;
+}
+.camera_ref .confirm {
+  margin: 30px auto 30px auto;
+  width: 80%;
+  background-color: #9a6bff41;
+  box-shadow: 0 0 20px #f3f3f3;
+}
+.camera_ref .confirm h3 {
+  color: white;
+}
+.camera_ref .confirm .confirm_par {
+  font-weight: 500;
+  text-align: left;
+  margin-left: 30px;
+  color: #9A6BFF;
+}
+.camera_ref img {
+  width: 50%;
+  height: 50%;
+  margin: 50px auto 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #f3f3f3;
+}
+.camera_ref .camera_info {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  padding: 20px;
+}
+.camera_ref .camera_info h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+.camera_ref .camera_info p {
+  padding: 5px;
+  color: white;
+}
+.camera_ref .camera_info .camera_price {
+  font-weight: 500;
+  color: white;
+}
+.camera_ref .camera_cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.camera_ref .camera_cart h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 20px auto 20px auto;
+}
+.camera_ref .camera_cart .each_camera {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  background-color: #f3e9f1;
+  border: 1px solid #9A6BFF;
+}
+.camera_ref .camera_cart .each_camera p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 15px;
+  padding: 5px;
+  color: #4F25A8;
+  font-weight: 500;
+}
+.camera_ref .camera_cart .each_camera .camera_price {
+  display: flex;
+  font-weight: 500;
+}
+.camera_ref .camera_cart .each_camera .camera_price button {
+  margin: auto 20px auto auto;
+  background-color: #9a6bff41;
+  color: #4F25A8;
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+.camera_ref .camera_cart .each_camera .camera_price button:hover {
+  background-color: #f3e9f1;
+  transform: scale(1.1);
+  color: #4F25A8;
+}
+.camera_ref .camera_cart .icon_garbage {
+  width: auto;
+  border-radius: 10px;
+  margin: 20px auto 30px auto;
+  background-color: #9a6bff41;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+.camera_ref .camera_cart .icon_garbage:hover {
+  background-color: #f3e9f1;
+  transform: scale(1.1);
+  color: #4F25A8;
+}
+.camera_ref .camera_cart .icon_garbage #cart_link {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+.camera_ref .camera_cart .icon_garbage #cart_link:hover {
+  color: #4F25A8;
+}
+.camera_ref .camera_cart .icon_garbage .fas {
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+form {
+  margin: 10px;
+  font-weight: 500;
+}
+
+.colors_choice {
+  margin-bottom: 10px;
+}
+.colors_choice label {
+  color: white;
+}
+.colors_choice select {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+#submit {
+  width: auto;
+  border-radius: 10px;
+  margin: 20px auto 30px auto;
+  background-color: #9a6bff41;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+#submit:hover {
+  background-color: #f3e9f1;
+  transform: scale(1.1);
+  color: #4F25A8;
+}
+
+.back {
+  background-color: #9a6bff41;
+  padding-bottom: 20px;
+}
+.back button {
+  display: flex;
+  margin: auto auto 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #9A6BFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+.back button:hover {
+  background-color: #9A6BFF;
+  transform: scale(1.1);
+}
+.back button a {
+  text-decoration: none;
+  color: white;
+}
+
+.total {
+  font-family: "Montserrat", sans-serif;
+  color: #9a6bff41;
+  font-weight: 500;
+  font-size: larger;
+  margin: 20px auto 20px auto;
+}
+
+.empty_cart {
+  font-family: "Montserrat", sans-serif;
+  color: #9a6bff41;
+  font-weight: 500;
+  font-size: larger;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact_form {
+  border: 4px solid #4F25A8;
+}
+.contact_form h3 {
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  color: white;
+}
+.contact_form .div_name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+.contact_form .div_name .name {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.contact_form .div_name #valid {
+  width: auto;
+  border-radius: 10px;
+  margin: 20px auto 30px auto;
+  background-color: #9a6bff41;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+.contact_form .div_name #valid:hover {
+  background-color: #f3e9f1;
+  transform: scale(1.1);
+  color: #4F25A8;
+}
+
+.camera_confirm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  box-shadow: 0 0 20px #f3f3f3;
+  background-color: #9A6BFF;
+  margin: 20px auto 10px auto;
+  height: auto;
+  width: 70%;
+}
+.camera_confirm h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.camera_confirm p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 15px;
+}
+.camera_confirm .confirm {
+  margin: 30px auto 30px auto;
+  width: 80%;
+  background-color: #9a6bff41;
+  box-shadow: 0 0 20px #f3f3f3;
+}
+.camera_confirm .confirm h3 {
+  color: white;
+}
+.camera_confirm .confirm .confirm_par {
+  font-weight: 500;
+  text-align: left;
+  margin-left: 30px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 360px) {
+  header a img {
+    width: 90%;
+    height: 90%;
+    padding-left: 10px;
+  }
+  header .lien_panier {
+    text-decoration: none;
+    color: #454545;
+    font-family: "Montserrat", sans-serif;
+    margin: auto 10px auto 5px;
+    text-align: right;
+    font-size: 0.8em;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main h1 {
+    font-size: 1.2em;
+  }
+  main h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #cameras {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  section a {
+    width: 250px;
+    height: 180px;
+    margin: 20px auto 20px auto;
+  }
+  section a img {
+    width: 140px;
+  }
+  section a .cameras_ref {
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    margin: 0px;
+  }
+  footer h2 {
+    width: 80%;
+  }
+
+  .camera_ref {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  .camera_ref img {
+    margin: 20px auto auto auto;
+    width: 80%;
+    height: 80%;
+  }
+  .camera_ref .camera_info {
+    width: 80%;
+  }
+  .camera_ref .camera_cart {
+    padding-bottom: 10px;
+  }
+  .camera_ref .camera_cart .each_camera {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  .camera_ref .camera_cart .each_camera p {
+    padding: 10px;
+    margin: auto;
+  }
+  .camera_ref .camera_cart .each_camera .camera_price {
+    font-weight: 500;
+    margin: auto;
+  }
+
+  .camera_confirm {
+    width: 90%;
+  }
+  .camera_confirm .confirm {
+    margin: 30px auto 30px auto;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 760px) and (min-width: 360px) {
+  header a img {
+    width: 90%;
+    height: 90%;
+    padding-left: 15px;
+  }
+  header .lien_panier {
+    text-decoration: none;
+    color: #454545;
+    font-family: "Montserrat", sans-serif;
+    margin: auto 15px auto 5px;
+    text-align: right;
+    font-size: 1em;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main h2 {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #cameras {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  section a {
+    width: 300px;
+    height: 200px;
+    margin: 20px auto 20px auto;
+  }
+  section a img {
+    width: 150px;
+  }
+  section a .cameras_ref {
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    margin: 0px;
+  }
+  footer h2 {
+    width: 80%;
+  }
+
+  .camera_ref {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+  }
+  .camera_ref img {
+    margin: 30px auto auto auto;
+    width: 80%;
+    height: 80%;
+  }
+  .camera_ref .camera_info {
+    width: 80%;
+  }
+  .camera_ref .camera_cart {
+    padding-bottom: 10px;
+  }
+  .camera_ref .camera_cart .each_camera {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  .camera_ref .camera_cart .each_camera p {
+    padding: 10px;
+    margin: auto;
+  }
+  .camera_ref .camera_cart .each_camera .camera_price {
+    font-weight: 500;
+    margin: auto;
+  }
+
+  .camera_confirm {
+    width: 90%;
+  }
+  .camera_confirm .confirm {
+    margin: 30px auto 30px auto;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    margin: 0px;
+  }
+
+  .camera_ref {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .camera_ref img {
+    margin: 50px auto auto auto;
+    width: 70%;
+    height: 70%;
+  }
+  .camera_ref .camera_info {
+    width: 80%;
+  }
+}
+@media (orientation: landscape) {
+  footer {
+    margin: auto;
+    height: auto;
+    background-color: #f3e9f1;
+    color: #454545;
+    position: sticky;
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
