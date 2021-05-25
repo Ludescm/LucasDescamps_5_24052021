@@ -5,7 +5,7 @@ const id = urlParams.get('id');
 console.log(id);
 
 const getCameras = async function() {
-     // récupération des données du teddy sélectionné par son id
+     // récupération des données des caméras sélectionné par son id
     try {
         let response = await fetch('http://localhost:3000/api/cameras/' + id);
         if (response.ok) {
