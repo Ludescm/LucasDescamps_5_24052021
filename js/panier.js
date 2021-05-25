@@ -44,7 +44,7 @@ if(storedCameras == null || storedCameras.length === 0){
         cameraPrice.appendChild(price);
         price.textContent = storedCamera.cameraPrice + " €"
 
-        // création bouton suppression d'un teddy
+        // création bouton suppression d'un produit
         const garbageButton = document.createElement('button');
         cameraPrice.appendChild(garbageButton);
         garbageButton.className = 'garbage_button';
@@ -299,7 +299,7 @@ if(storedCameras == null || storedCameras.length === 0){
             }
             console.log(contact);
 
-            // création du tableau products (id des oursons du panier)
+            // création du tableau products (id des caméras du panier)
             let products = [];
             for (storedCamera of storedCameras) {
                 let productsId = storedCamera.cameraId;
