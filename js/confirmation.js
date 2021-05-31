@@ -14,7 +14,7 @@ cameraDiv.className = 'camera_confirm';
 
 const cameraH3 = document.createElement('h3');
 cameraDiv.appendChild(cameraH3);
-cameraH3.textContent = "Oribears vous remercie de votre commande !";
+cameraH3.textContent = "Orinoco vous remercie de votre commande !";
 
 const cameraPar = document.createElement('p');
 cameraDiv.appendChild(cameraPar);

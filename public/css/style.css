@@ -348,9 +348,13 @@ form {
   background-color: #9A6BFF;
   transform: scale(1.1);
 }
-.back button a {
+.back a button {
   text-decoration: none;
   color: white;
+}
+
+.retourAcc {
+  text-decoration: none;
 }
 
 .total {
