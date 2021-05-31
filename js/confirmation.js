@@ -26,7 +26,7 @@ cameraPar2.innerHTML = "Vos oursons arriverons bientôt chez vous.<br />Vous tro
 
 const cameraPar3 = document.createElement('p');
 cameraDiv.appendChild(cameraPar3);
-cameraPar3.textContent = "Nous espérons vous revoir très vite chez Oribears !"
+cameraPar3.textContent = "Nous espérons vous revoir très vite chez Orinoco !"
 
 const cameraPar4 = document.createElement('p');
 cameraDiv.appendChild(cameraPar4);
