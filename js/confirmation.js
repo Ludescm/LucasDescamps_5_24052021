@@ -22,7 +22,7 @@ cameraPar.textContent = "Nous avons le plaisir de vous informer que votre comman
 
 const cameraPar2 = document.createElement('p');
 cameraDiv.appendChild(cameraPar2);
-cameraPar2.innerHTML = "Vos oursons arriverons bientôt chez vous.<br />Vous trouverez ci-dessous le récapitulatif de votre commande."
+cameraPar2.innerHTML = "Vos cameras arriverons bientôt chez vous.<br />Vous trouverez ci-dessous le récapitulatif de votre commande."
 
 const cameraPar3 = document.createElement('p');
 cameraDiv.appendChild(cameraPar3);
